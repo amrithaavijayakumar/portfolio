@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@1&family=Gloria+Hallelujah&family=Sniglet&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+font-family: 'Sniglet', cursive;
+}
+body{
+    background-color: rgb(160, 160, 212);
+}
+nav{
+    background-color: pink;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+    
+    text-shadow: 5px 4px 8px rgb(96, 167, 139);
+}
+video{
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+   
+    color: rgb(245, 9, 9);
+    text-shadow: 5px 5px 6px rgb(136, 134, 223);
+    
+}
+
+h2{
+    
+    color: rgba(207, 198, 196, 0.644);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color: red;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before{
+    content: "";
+    background-image: url('https://getwallpapers.com/wallpaper/full/a/d/9/1409558-beautiful-beautiful-ladies-wallpaper-1920x1080-for-iphone-5s.jpg');
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.main{
+    position: absolute;
+    border: 2px ridge whitesmoke;
+    padding: 70px;
+    top: 1000px;
+    left: 10%;
+    box-shadow: 4px 5px 6px 7px whitesmoke;
+    
+}
+.pic{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    color: rgb(56, 4, 13);
+    text-shadow: 4px 5px 6px blue;
+}
+h2:hover{
+    text-shadow: 3px 4px 5px rgb(136, 134, 223);
+}
+.pic p{
+    text-align: justify;
+    margin: 20px;
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.intro{
+    margin-left: 300px;
+    margin-top: 10px;
+    color: blueviolet;
+}
+.intro h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.gallery{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.gallery h2{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 4px 5px 6px whitesmoke;
+    color: rgb(71, 13, 138);
+}
+.gallery img:hover{
+box-shadow: 4px 5px 6px 7px black;
+}
+.row{
+    display: flex;
+
+}
+.box img{
+    width: 100%;
+    height: 30%;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border: 2px ridge black;
+    background: linear-gradient(to top,rgb(25, 0, 255) 50%,brown 50%);
+    background-size: 100% 200%; 
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: bottom;
+border: none;
+box-shadow: 3px 4px 5px 2px black;
+}
+.box h4{
+    text-align: center;
+    color: red;
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+h5{
+    margin-left: 100px;
+    text-align: center;
+    color: aqua;
+}
+form{
+    margin-top: 5px;
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    display: flex;
+    width: 100%;
+}
+button{
+    padding-left: 45%;
+}
+button:hover{
+    background-color: blue;
+}
+@media screen and (max-width:400px){
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    
+        
+        
+        
+    
+    nav{
+        height: 100px ;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: crimson;
+        display: flex;
+    }
+    .row{
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 2000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .col-3{
+        height: 500px;
+        width: 350px;
+        border: 3px solid black;
+        margin-left: 23px;
+    }
+}
